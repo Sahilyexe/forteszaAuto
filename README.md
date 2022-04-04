@@ -24,6 +24,7 @@ Automatización de pruebas funcionales Fortesza, con el patron de diseño Screen
 - Validaciones del camo telefono de contacti
 - Validaciones del campo correo
 - Validaciones del cambio de contraseña
+- Registro de nuevo usuario
 
 ## Realizar contribuciones
 

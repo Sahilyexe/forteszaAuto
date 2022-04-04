@@ -91,4 +91,16 @@ public static final Target FILE =Target.
 public static final Target BOTON_ACEPTAR_SUBIR_IMAGEN =Target.
             the("Botón que acepta cuando subes una imagen").
             located(By.xpath("//button//span[text()='Aceptar']"));
+    public static final Target CORREO_REGISTRO = Target.
+            the("Botón que acepta cuando subes una imagen").
+            located(By.xpath("//input[@id='input-email-register']"));
+ public static final Target CLAVE_REGISTRO = Target.
+            the("Botón que acepta cuando subes una imagen").
+            located(By.xpath("//input[@id='input-password-register']"));
+public static final Target TERMINOS_Y_CONDICIONES = Target.
+            the("Botón que acepta cuando subes una imagen").
+            located(By.xpath("//mat-checkbox[@id='check-terms-and-conditions']"));
+public static final Target BOTON_CREAR_CUENTA = Target.
+            the("Botón que acepta cuando subes una imagen").
+            located(By.xpath("//button[@id='btn-register-user']"));
 }

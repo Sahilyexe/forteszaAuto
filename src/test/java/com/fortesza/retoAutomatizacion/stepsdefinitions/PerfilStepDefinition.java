@@ -17,7 +17,7 @@ import static com.fortesza.retoAutomatizacion.Userinterface.InterfaceWeb.*;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 
 
-public class EjemploStepDefinition {
+public class PerfilStepDefinition {
 
     @Before
     public void setTheStage() {
@@ -94,14 +94,14 @@ public class EjemploStepDefinition {
 
 
     @Cuando("^modifico al correo electronico \"(.*)\"$")
-    public void modificoAlCorreoElectronico(String correo) throws Throwable {
+    public void modificoAlCorreoElectronico(String correo)  {
         OnStage.theActorInTheSpotlight().attemptsTo(Clic.enElElemento(BOTON_EDITAR_CORREO_ELECTRONICO));
         OnStage.theActorInTheSpotlight().attemptsTo(Ingresar.elTexto(correo).enElElemento(CAJA_DE_TEXTO_CORREO_ELECTRONICO));
         OnStage.theActorInTheSpotlight().attemptsTo(Clic.enElElemento(BOTON_ACEPTAR));
     }
 
     @Cuando("^ingreso la contraseña actual (.*) contraseña nueva (.*) y confirmo (.*)$")
-    public void ingresoLaContrasenaActualContraseñaNuevaYConfirmo(String claveActual, String nuevaClave, String mismaClave) throws Throwable {
+    public void ingresoLaContrasenaActualContraseñaNuevaYConfirmo(String claveActual, String nuevaClave, String mismaClave)  {
         OnStage.theActorInTheSpotlight().attemptsTo(Ingresar.elTexto(claveActual).enElElemento(CAJA_DE_TEXTO_CONTRASENA_ACTUAL));
         OnStage.theActorInTheSpotlight().attemptsTo(Ingresar.elTexto(nuevaClave).enElElemento(CAJA_DE_TEXTO_NUEVA_CONTRASENA));
         OnStage.theActorInTheSpotlight().attemptsTo(Ingresar.elTexto(mismaClave).enElElemento(CAJA_DE_TEXTO_CONFIRMAR_NUEVA_CONTRASENA));

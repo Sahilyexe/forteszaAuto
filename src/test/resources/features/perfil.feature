@@ -9,6 +9,11 @@ Característica: Prueba funcionalidad de Seguridad de Fortesza
     Dado que inicio sesion con el usuario "sahily.siguenza77@gmail.com" y la clave "Garrapata17!"
     Y veo el título "Formulario inversionista"
 
+  Escenario: Registro de un nuevo usuario
+    Dado que navego hacia la seccion de seguridad
+    Cuando ingreso el nuevo el nuevo telefono de contacto "65044101"
+    Entonces el sistema muestra el mensaje "Actualización correcta"
+    Y el usuario cierra la sesion y puede ver el mensaje "Regístrate"
 
   Escenario: Editar telefono de contacto
     Dado que navego hacia la seccion de seguridad
@@ -64,9 +69,8 @@ Característica: Prueba funcionalidad de Seguridad de Fortesza
 
     Ejemplos:
       |actual       |nueva           |confirmo|
-      |123456Dd!|"1A8638267M37384"|1A8638267M37384"|
-      |123456Dd!|"1a8638267m37384"|1a8638267m37384"|
-      |123456Dd!|"sinNumeros&$#()%|sinNumeros&$#()%|
-      |123456Dd!|"1A8638267m373841|1A8638267m373841|
-      |123456Dd!|"Aa77!12          |Aa77!12        |
-      |123456Dd!|"Aa77!123456789123|Aa77!123456789123|
+      |123456Dd!|1A8638267M37384"|1A8638267M37384"|
+      |123456Dd!|"1a8638267m37384|"1a8638267m37384|
+      |123456Dd!|sinNumeros&$#()%|sinNumeros&$#()%|
+      |123456Dd!|Aa77!12          |Aa77!12        |
+      |123456Dd!|Aa77!123456789123|Aa77!123456789123|
