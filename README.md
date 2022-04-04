@@ -16,7 +16,7 @@ Automatización de pruebas funcionales Fortesza, con el patron de diseño Screen
 
 1. Clonar el repositorio Una vez clonado el repositorio, y haber cumplido con los pre-requisitos de ejecución, abrir programa cmd en la carpeta raiz (del repositorio clonado)
 2. Ejecutar todas las pruebas "gradlew clean test aggregate"
-5. Para ver el resultado y evidencias de las pruebas abrir ir a "com.fortesza.retoAutomatizacion/target/site/serenity/" y abrir el archivo llamado "index.html"
+5. Para ver el resultado y evidencias de las pruebas abrir ir a "target/site/serenity/" y abrir el archivo llamado "index.html"
 
 
 ## Pruebas automatizadas
