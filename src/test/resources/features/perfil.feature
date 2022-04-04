@@ -1,9 +1,9 @@
 # language: es
 # encoding: UTF8
 Característica: Prueba funcionalidad de Seguridad de Fortesza
-  Yo como analista de QA
-  Quiero verificar el ambiente de certificación
-  Para conocer el estado del ambiente
+  Yo como cliente de Fortesza
+  Quiero actualizar mis datos
+  Para que me puedan ofrecer un mejor servicio
 
   Antecedentes: Iniciar sesión en Fortesza
     Dado que inicio sesion con el usuario "sahily.siguenza77@gmail.com" y la clave "Garrapata17!"
