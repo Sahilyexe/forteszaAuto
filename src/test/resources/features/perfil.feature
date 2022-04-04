@@ -1,6 +1,6 @@
 # language: es
 # encoding: UTF8
-Característica: Prueba de disponibilidad de ambiente de QA
+Característica: Prueba funcionalidad de Seguridad de Fortesza
   Yo como analista de QA
   Quiero verificar el ambiente de certificación
   Para conocer el estado del ambiente
